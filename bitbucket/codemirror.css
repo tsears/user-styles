@@ -1,0 +1,56 @@
+/* CODE EDITOR */
+.text-view .line, .text-view .line .CodeMirror-gutter-elt > * {
+    background-color: inherit;
+}
+
+.pull-request-activity .diff-comment-activity .file-content, .pull-request-activity .file-comment-activity .detail .file-comment-container {
+    border-color: #555;
+}
+
+.skipped-container .content-above, .skipped-container .content-below {
+    background-image: none;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+    background-color: #555;
+}
+
+.unified-diff .CodeMirror-scroll {
+    background-color: #555;
+    color: #cecece;
+}
+
+.file-toolbar {
+    background-color: #222;
+    border-color: #555;
+}
+
+.unified-diff .gutter-border {
+    border-color: #333;
+}
+
+.diff-view.text-view .line-number, .diff-view.text-view .line-number-marker {
+    color: inherit;
+}
+
+.diff-view.text-view .removed.line, .diff-view.text-view .removed.segment-connector, .diff-view.text-view .removed.line .comment-box, .diff-view.text-view .removed.line .bitbucket-gutter-marker {
+    background-color: #ff7e83;
+    color: #222;
+}
+
+.diff-view.text-view .added.line, .diff-view.text-view .added.segment-connector, .diff-view.text-view .added.line .comment-box, .diff-view.text-view .added.line .bitbucket-gutter-marker {
+    background-color: #97f295 !important;
+    color: #222;
+}
+
+.diff-view.text-view .commented.line, .diff-view.text-view .commented.line .comment-box, .diff-view.text-view .commented.line .bitbucket-gutter-marker {
+    background-color: inherit;
+}
+
+.content-view .CodeMirror-gutters {
+    background-color: #333;
+}
+
+.diff-view.text-view.commentable .line:hover,
+.diff-view.text-view.commentable .line:hover .CodeMirror-gutter-elt > * {
+    background-color: #222;
+}

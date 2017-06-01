@@ -1,0 +1,220 @@
+body {
+    background-color: #222;
+    background-image: url(data:image/png;base64,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) !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #cecece;
+}
+
+.content-body {
+    background-color: #333;
+    color: #cecece;
+}
+
+.aui-page-panel {
+    background-color: inherit;
+    border-color: #555;
+}
+
+.aui-page-panel-nav {
+    border-color: #555;
+}
+
+.aui-header {
+    background-color: #222;
+    border-bottom: 1px solid #555;
+}
+
+.aui-sidebar .aui-sidebar-wrapper, .aui-sidebar-submenu .aui-sidebar-wrapper {
+    background-color: #333;
+    border-right: 1px solid #555;
+}
+
+.aui-sidebar .aui-sidebar-footer, .aui-sidebar-submenu .aui-sidebar-footer,
+.aui-sidebar[aria-expanded="false"] .aui-sidebar-group.aui-sidebar-group-actions~.aui-sidebar-group-tier-one,
+.aui-sidebar-submenu[aria-expanded="false"] .aui-sidebar-group.aui-sidebar-group-actions~.aui-sidebar-group-tier-one{
+    border-top: 1px solid #555;
+}
+
+.aui-sidebar[aria-expanded=false] .aui-navgroup-vertical .aui-nav .aui-nav-child-selected a, .aui-sidebar-submenu[aria-expanded=false] .aui-navgroup-vertical .aui-nav .aui-nav-child-selected a, .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a, .aui-sidebar-submenu .aui-navgroup-vertical .aui-nav .aui-nav-selected a {
+    background-color: #222;
+}
+
+.aui-tabs.horizontal-tabs>.tabs-menu>.menu-item>a, .aui-tabs.aui-tabs-disabled.horizontal-tabs>.tabs-menu>.menu-item>a:focus, .aui-tabs.aui-tabs-disabled.horizontal-tabs>.tabs-menu>.menu-item>a:hover, .aui-tabs.aui-tabs-disabled.horizontal-tabs>.tabs-menu>.menu-item>a:active {
+    border: 1px solid #555;
+    background-color: rgba(255,255,255,0.2);
+    transition:background-color 0.2s;
+}
+
+.branch-from-to {
+    background-color: #222;
+    border-color: #555;
+}
+
+.aui-tabs.horizontal-tabs>.tabs-menu~.tabs-pane {
+    border-color: #555;
+}
+
+.aui-tabs.horizontal-tabs>.tabs-menu>.menu-item.active-tab {
+    border-bottom: none;
+    background-color: #333;
+}
+
+.aui-tabs.horizontal-tabs>.tabs-menu>.menu-item {
+    background-color: inherit;
+}
+
+.aui-tabs>.tabs-menu .menu-item a, .aui-tabs>.tabs-menu .menu-item a:link, .aui-tabs>.tabs-menu .menu-item a:visited {
+    background-color: #333;
+    color: #cecece;
+    border-color: #555;
+}
+
+.aui-tabs>.tabs-menu .menu-item.active-tab a, .aui-tabs>.tabs-menu .menu-item.active-tab a:link, .aui-tabs>.tabs-menu .menu-item.active-tab a:visited, .aui-tabs>.tabs-menu .menu-item.active-tab a:focus, .aui-tabs>.tabs-menu .menu-item.active-tab a:hover, .aui-tabs>.tabs-menu .menu-item.active-tab a:active, .aui-tabs.horizontal-tabs>.tabs-menu>.menu-item:first-child a {
+    background-color: #222;
+    color: #cecece;
+    border-color: #555;
+}
+
+table.aui>tbody>tr, table.aui>tfoot>tr {
+    border: none;
+    background-color: #222;
+    border-radius: 0.5em;
+}
+
+table.aui>thead {
+    border-bottom: 1px solid #555;
+}
+
+.aui-message.warning, .aui-message-warning {
+	background-color: rgb(247, 223, 163);
+}
+
+.branch-table .base-branch, .paged-table tr.focused {
+    background-color: #333;
+}
+
+.pull-request-activity .rescope .commits-table tbody > tr:first-child {
+    border: none;
+}
+
+.aui-tabs > .pull-request-content .summary-panel {
+    display: none;
+}
+
+.commits-table .message .message-subject {
+    color: #cecece;
+}
+
+.commits-table tr {
+    border-left: 0;
+}
+
+.bitbucket-theme #content table.aui > tbody > tr:hover,
+.commits-table tr:hover .message .message-body,
+.commits-table tr:hover .message .message-subject {
+    background-color: #444;
+    color: #ddd;
+}
+
+.commits-table .message::after, .commits-table tbody tr:hover .message::after,
+.commits-table tr.focused-commit .message::after {
+    background: inherit;
+}
+
+.bitbucket-theme a.secondary-link {
+    text-decoration: underline;
+    color: #ddd;
+}
+
+.pull-request-header .reviewer-avatar-list {
+    background-color: inherit;
+}
+
+.pull-request-activity > li {
+    border-color: #4c4c4c;
+}
+
+.markup-editor textarea, .new-comment-form textarea.restored {
+    background-color: #222;
+    border-color: #555;
+    color: #cecece;
+}
+
+.markup-editor .markup-toolbar {
+    background-color: #111;
+    border-color: #555;
+}
+
+.comment-container .panel {
+    background-color: #222;
+    color: #cecece;
+}
+
+.markup code {
+    background-color: #111;
+    color: #eee;
+    border-color: #555;
+}
+
+.comment-container .panel {
+ border-color: #777;
+}
+
+.comment.unread > .content {
+    background: #222;
+}
+
+#footer-logo {
+    background-color: inherit;
+}
+
+aui-inline-dialog .aui-inline-dialog-contents, .aui-inline-dialog .aui-inline-dialog-contents, aui-inline-dialog .contents, .aui-inline-dialog .contents {
+    background-color: #111;
+    border-color: #555;
+}
+
+.bitbucket-theme #browse-table tr.focused-file td:first-of-type {
+    border-left: none;
+}
+
+.bitbucket-theme #browse-table tr.focused-file, .commits-table tr.focused-commit {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.filebrowser-table .directory-file-history.message::after, .filebrowser-table tr.focused-file .directory-file-history.message::after, .filebrowser-table tr:hover .directory-file-history.message::after {
+    background-image: none;
+}
+
+.filebrowser-readme .filebrowser-readme-header {
+    background-color: #222;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.filebrowser-readme-content {
+    color: #eee;
+}
+
+.file-tree-container,
+.pull-request-content > .commit-files .diff-tree-toolbar,
+.file-tree-wrapper,
+.pull-request-content > .commit-files .diff-tree-search-wrapper .search::before,
+.jstree.file-tree > ul a,
+.diff-view.text-view .context.line .add-comment-trigger {
+    background: inherit;
+    color: #cecece;
+}
+
+.skipped-container {
+    line-height: normal;
+}
+
+.aui-select2-container.select2-container .select2-choice, .aui-select2-container.select2-container a.select2-choice, .aui-select2-container.select2-container .select2-choice:visited {
+    text-shadow: none;
+}
+
+.filter-bar .aui-button, .filter-bar .aui-select2-container.select2-container .select2-choice, .filter-bar .aui-select2-container.select2-container a.select2-choice {
+    border: 1px solid #555;
+}

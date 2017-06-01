@@ -1,0 +1,98 @@
+body {
+    background-color: #333;
+    color: #cecece;
+}
+
+h2 img {
+ 	float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+input,
+input[type='text'] {
+    color: #cecece;
+    background: transparent;
+    border: none;
+    padding-bottom: 0.7em;
+    border-bottom: 2px solid #cecece;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 0.5em;
+}
+#header {
+    border-right: 1px solid #555;
+    background-color: #222;
+    padding: 2em;
+}
+#sections {
+    margin-left: 18rem;
+    padding: 2em;
+}
+.applies-to li {
+    margin-bottom: .75rem;
+}
+select {
+    background-color: transparent;
+    color: white;
+    height: 2.5em;
+}
+.applies-value {
+    margin: auto 1rem;
+}
+
+button {
+    background-color: #111;
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    color: white;
+    margin-right: 0.75em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#options > div {
+    margin-bottom: 1em;
+}
+
+.option.aligned {
+    display: flex;
+    align-items: baseline;
+}
+
+.option.aligned :first-child {
+    width: 5em;
+}
+
+.option.aligned :nth-child(2) {
+    flex-grow: 1;
+    max-width: 12em;
+    margin-right: 1em;
+}
+
+.option.aligned img {
+    align-self: center;
+    float: right;
+}
+
+.CodeMirror {
+    border-color: #555;
+    margin-bottom: 2rem;
+}
+
+.CodeMirror-focused {
+ 	outline: 3px solid #888;
+}
+
+#basic-info-enabled {
+    margin-top: 1em;
+}
