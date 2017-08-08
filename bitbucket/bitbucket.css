@@ -7,6 +7,10 @@ h1,h2,h3,h4,h5,h6 {
     color: #cecece;
 }
 
+.dashboard-page #page {
+    background: inherit;
+}
+
 .content-body {
     background-color: #333;
     color: #cecece;
@@ -32,7 +36,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .aui-sidebar .aui-sidebar-footer, .aui-sidebar-submenu .aui-sidebar-footer,
-.aui-sidebar[aria-expanded="false"] .aui-sidebar-group.aui-sidebar-group-actions~.aui-sidebar-group-tier-one,
+.aui-sidebar[aria-expanded="false"] .aui-sidebar-group.aui-sidebar-group-actions~.aui-sidebar-group-tier-one, 
 .aui-sidebar-submenu[aria-expanded="false"] .aui-sidebar-group.aui-sidebar-group-actions~.aui-sidebar-group-tier-one{
     border-top: 1px solid #555;
 }
@@ -159,7 +163,7 @@ table.aui>thead {
 }
 
 .comment-container .panel {
- border-color: #777;
+ border-color: #777;   
 }
 
 .comment.unread > .content {
@@ -217,4 +221,20 @@ aui-inline-dialog .aui-inline-dialog-contents, .aui-inline-dialog .aui-inline-di
 
 .filter-bar .aui-button, .filter-bar .aui-select2-container.select2-container .select2-choice, .filter-bar .aui-select2-container.select2-container a.select2-choice {
     border: 1px solid #555;
+}
+
+table.aui.dashboard-pull-requests-table tr.focused {
+    background-color: rgba(0,0,0,0.2)
+}
+
+.file-content {
+    background-color: #333;
+}
+
+.markup-content {
+    color: inherit;
+}
+
+.breadcrumbs span.stub {
+    color: #ddd;
 }
